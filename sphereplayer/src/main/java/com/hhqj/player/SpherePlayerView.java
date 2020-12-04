@@ -202,6 +202,7 @@ public class SpherePlayerView extends RelativeLayout implements CompoundButton.O
 
             @Override
             public void surfaceDestroyed(SurfaceHolder holder) {
+
                 Log.d("main","destroy");
                     mSpherePlayer.stop();
             }

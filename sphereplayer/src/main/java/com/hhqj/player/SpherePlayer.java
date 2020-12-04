@@ -299,7 +299,7 @@ public class SpherePlayer  {
             }
             mVideoDecoder = null;
             mDemuxer = null;
-            //mSphereSurfaceView.setOnTouchListener(null);
+            mSphereSurfaceView.setOnTouchListener(null);
 
             if(mContext != null) {
                 SensorManager sensorManager = (SensorManager) mContext.getSystemService(Context.SENSOR_SERVICE);

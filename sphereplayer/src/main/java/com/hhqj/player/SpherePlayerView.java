@@ -160,7 +160,7 @@ public class SpherePlayerView extends RelativeLayout implements CompoundButton.O
 
                                 break;
                             case MotionEvent.ACTION_UP:
-                                if(clickable&&mLinearLayout.getVisibility()==GONE){
+                                if(clickable&&mLinearLayout.getVisibility()==GONE&&mSpherePlayer.isPlaying()){
                                     if(mBottomConstraintLayout.getVisibility()==VISIBLE){
                                         mBottomConstraintLayout.setVisibility(GONE);
                                         mBottomBackgroundConstraintLayout.setVisibility(GONE);

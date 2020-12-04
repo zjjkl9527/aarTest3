@@ -1,0 +1,3 @@
+include ':sphereplayer'
+include ':app'
+rootProject.name = "aarTest3"
